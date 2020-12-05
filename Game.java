@@ -8,11 +8,16 @@ import javax.swing.*;
 
 
 public Class Game implements ActionListener {
-  JLabel welcome;
+  JLabel label;
 
 Game (){
   JFrame frame = new JFrame("Group XX's Trivia Game");
   frame.setLayout(new FlowLayout());
   frame.setSize(220,90);
+  label = new Jlabel ("Welcome!");
+  frame.add(label);
+  frame.setVisible(true);
 }
+
+
 }
