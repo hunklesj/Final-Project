@@ -33,6 +33,7 @@ Question () {
   d = aD;
   answer = aAnswer;
   points = aPoints;
+
   }
 
   String getQuestion() {
@@ -57,6 +58,7 @@ Question () {
  int getPoints (){
    return points;
  }
+
 
   }
 
