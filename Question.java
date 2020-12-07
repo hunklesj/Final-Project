@@ -55,7 +55,7 @@ String getD (){
  String getAnswer (){
    return answer;
  }
- String getPoints (){
+ int getPoints (){
    return points;
  }
 
