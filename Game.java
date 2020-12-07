@@ -10,7 +10,7 @@ public Class Game implements ActionListener {
   JLabel label;
   JLabel label2;
   Jlabel scoreLabel;
-  int scoreTotal;
+  int scoreTotal = 0;
 Game (){
   JFrame frame = new JFrame("Group XX's Trivia Game");
   frame.setLayout(new FlowLayout());
@@ -37,48 +37,15 @@ Game (){
 }
 
 
-  static ArrayList<Question> questions;
-static String filename;
-static FileReader myFile;
 
-questions = new ArrayList<Question>();
-
-String question;
-String a;
-String b;
-String c;
-String d;
-int answer;
-int points;
-
-try {
-myFile = new FileReader("data.txt");
-BufferedReader reader = new BufferedReader(myFile);
-
-while (reader.ready()) {
-question = reader.readLine();
-a = reader.readLine();
-b = reader.readLine();
-c = reader.readLine();
-d = reader.readLine();
-answer = Integer.parseInt(reader.readLine());
-points = Integer.parseInt(reader.readLine());
-Question theQuestion = new Question(question, a, b, c, d, answer, points);
-questions.add(theQuestion);
 }
-reader.close();
-}
-
-catch (IOException exception) {
-System.out.println("An error occurred: " + exception);
-}
-for(int i=0; i<questions.size(); i++) {
-System.out.printf("%-25s %-20s %-20s %n", questions.get(i).getQuestion(), questions.get(i).getA(), questions.get(i).getAnswer());
-}
-
 
 public void actionPerformed(ActionEvent ae) {
-  if(ae.getActionCommand().equals()
+  if(ae.getActionCommand().equals(answer){
+  scoreTotal = scoreTotal + points;
+  label.setText(scoreTotal);
+  }
+   
 }
 
 }

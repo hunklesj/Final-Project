@@ -12,7 +12,7 @@ class Question {
   private String b;
   private String c;
   private String d;
-  private int answer;
+  private String answer;
   private int points;
 
 Question () {
@@ -21,11 +21,11 @@ Question () {
   b = "";
   c = "";
   d = "";
- answer = 0;
+ answer = "";
  points = 0;
 
 }
-	Question (String aQuestion, String aA, String aB, String aC, String aD, int aAnswer, int aPoints) 	{
+	Question (String aQuestion, String aA, String aB, String aC, String aD, String aAnswer, int aPoints) 	{
   question = aQuestion;
   a = aA;
   b = aB;
@@ -36,7 +36,7 @@ Question () {
 
   }
 
-  String getQuestion() {
+String getQuestion() {
      return question;
   }
 
@@ -49,13 +49,13 @@ Question () {
  String getC (){
    return c;
  }
-  String getD (){
+String getD (){
    return d;
  }
- int getAnswer (){
+ String getAnswer (){
    return answer;
  }
- int getPoints (){
+ String getPoints (){
    return points;
  }
 
