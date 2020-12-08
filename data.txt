@@ -1,14 +1,35 @@
-Test
-A
-B
-C
-D
-B
-10
-Test2
-A2
-B2
-C2
-D2
-C2
-102
+Where is the University of Cincinnati Located?
+Cincinnati
+Miami
+New York
+Oklahoma City
+Cincinnati
+8
+What Major is IS4010 required for?
+Marketing 
+Accounting
+Information Systems
+Finance
+Information Systems
+15
+What is UC's mascot?
+Redhawk
+Buckey
+Bearcat
+Muskateer
+Bearcat
+15
+What is UC's ranking in College Football
+1
+5
+29
+7
+7
+15
+What is the UC College of Business Called?
+Cincinnati College of Business
+Lindner College of Business
+Farmer's School of Business
+Cincinnati School of Business
+Lindner College of Business
+12
